@@ -2,11 +2,13 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* Header */
 header h1 {
   font-weight: bold;
   letter-spacing: 2px;
 }
 
+/* Nav */
 nav .nav-link {
   text-transform: uppercase;
 }
@@ -15,6 +17,34 @@ nav .nav-link:hover {
   text-decoration: underline;
 }
 
+/* Footer */
 footer {
   font-size: 0.9rem;
+}
+
+
+main h2 {
+  font-weight: 700;
+}
+
+.promo-card {
+  border: 1px solid #eeeeee;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.promo-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+
+.test-drive-form {
+  background-color: #f8f9fa; 
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid #dee2e6;
+}
+
+.test-drive-form .form-label {
+  font-weight: 600;
 }
